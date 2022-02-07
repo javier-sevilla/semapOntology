@@ -1,0 +1,2092 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:absolute:purl.org/stevo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:absolute:purl.org/stevo">
+    <Prefix name="" IRI="urn:absolute:purl.org/stevo#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="geom" IRI="http://data.ign.fr/def/geometrie#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#silknowTimeLineControl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visualTextileType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3D_Model_Marker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#representant_marker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#max_zoom_level"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_group_behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#corresponds_with"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://data.ign.fr/def/ignf#CartesianCS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GetService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Figure_Marker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#time_starts_at"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_expression"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#min_zoom_level"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#position_domain_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/viso/graphic/Shape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_domain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visual_Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="geom:Point"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#position_x_domain_property"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TextilePictureVistualTextileTypeClothes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#correspondingTextileTypeReligiousPicture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RedColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#group_behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defined_by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitCentury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RestService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/viso/graphic/Primary_Graphic_Representation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#queryForTextileTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#topYUp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silknowTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#startSilknowTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sceneSilknow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QueryResultSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circle_Marker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lowerLeftMap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#corresponding_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#time_control_frequency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TextilePictureVisualTextileTypeReligious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silknowDomainTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clusters_Group_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silknowGroupBehaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_domain_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#linked_relation_with_lines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uncertainty_replication_marker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#time_ends_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_corresponding_graphic_objet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_relatable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_uri"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#zoom_level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_variable_for_instance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#time_control_max_steps"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#position_z_domain_property"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightBlueColor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#circleTextile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpaceEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeEnvironment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/viso/graphic/Picture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#queryForTextileLatLong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simultaneous_Time_Control_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_variable_for_all_instances"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#value_per_query"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#endSilknowTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Control_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#property_path"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uncertainty_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silknowUncertaintyBehaviour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#en_fecha_xsd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visualTextileTimeEnd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silknowLinkedRelationBehaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/viso/graphic/3D_Model"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#topRightMap"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#position_y_domain_property"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/viso/graphic/color_rgb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lowerYUp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#correspondingTextileTypeClothesPicture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_query_service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linking_Relation_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#queryForTextileTec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/viso/graphic/shape_named"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heat_Map_Group_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represented_by_color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.org/viso/shape/commons/Circle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silknowSimultaneousTimeControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visualTextileTimeStart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#time_unit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#greenColor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#figureCircle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WebService"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#property_URI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#time_control_has_steps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/viso/graphic/Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marker_Relation_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://data.ign.fr/def/ignf#CoordinateSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Line_Control_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#geograficMap"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represented_into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_time_environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uncertainty_Individual_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#level_of_detail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#uncertainty_with_discolouration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Query"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#origin3D"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_filtered"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value_of_corresponding_property"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#represents_domain_concept"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silknowClusterMarker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#linked_relation_rounded_by_color"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_time_control_behaviour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#uncertainty_replicated_with_shift"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_URL_from_property"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visualTextile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Unity3D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uncertainty_Replication_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_URL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#circleSilknowMarker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_string"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#instance_marker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_URL_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visual_Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordY"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Service_url"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relation_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uncertainty_marker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#uses_query_variable_name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_uncertainty_behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#marker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordZ"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_parameter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cartesianCS"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Figure_Marker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_graphic_representation"/>
+            <Class IRI="http://purl.org/viso/graphic/Shape"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#3D_Model_Marker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_graphic_representation"/>
+            <Class IRI="http://purl.org/viso/graphic/3D_Model"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Circle_Marker"/>
+        <Class IRI="#Figure_Marker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clusters_Group_Behaviour"/>
+        <Class IRI="#Group_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Figure_Marker"/>
+        <Class IRI="#Marker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GetService"/>
+        <Class IRI="#RestService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group_Behaviour"/>
+        <Class IRI="#Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heat_Map_Group_Behaviour"/>
+        <Class IRI="#Group_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linking_Relation_Behaviour"/>
+        <Class IRI="#Relation_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marker_Relation_Behaviour"/>
+        <Class IRI="#Relation_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QueryResultSet"/>
+        <Class IRI="#Query"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relation_Behaviour"/>
+        <Class IRI="#Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RestService"/>
+        <Class IRI="#WebService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simultaneous_Time_Control_Behaviour"/>
+        <Class IRI="#Time_Control_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Control_Behaviour"/>
+        <Class IRI="#Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Line_Control_Behaviour"/>
+        <Class IRI="#Time_Control_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uncertainty_Behaviour"/>
+        <Class IRI="#Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uncertainty_Individual_Behaviour"/>
+        <Class IRI="#Uncertainty_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uncertainty_Replication_Behaviour"/>
+        <Class IRI="#Uncertainty_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3D_Model_Marker"/>
+        <Class IRI="#Marker"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Clusters_Group_Behaviour"/>
+        <Class IRI="#Heat_Map_Group_Behaviour"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Uncertainty_Individual_Behaviour"/>
+        <Class IRI="#Uncertainty_Replication_Behaviour"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitCentury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/viso/graphic/Color"/>
+        <NamedIndividual IRI="#LightBlueColor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/viso/graphic/Color"/>
+        <NamedIndividual IRI="#RedColor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/viso/graphic/Picture"/>
+        <NamedIndividual IRI="#TextilePictureVistualTextileTypeClothes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/viso/graphic/Picture"/>
+        <NamedIndividual IRI="#TextilePictureVisualTextileTypeReligious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpaceEnvironment"/>
+        <NamedIndividual IRI="#Unity3D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://data.ign.fr/def/ignf#CartesianCS"/>
+        <NamedIndividual IRI="#cartesianCS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/viso/graphic/Primary_Graphic_Representation"/>
+        <NamedIndividual IRI="#circleSilknowMarker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/viso/graphic/Primary_Graphic_Representation"/>
+        <NamedIndividual IRI="#circleTextile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Modifier"/>
+        <NamedIndividual IRI="#correspondingTextileTypeClothesPicture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Modifier"/>
+        <NamedIndividual IRI="#correspondingTextileTypeReligiousPicture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#endSilknowTime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Circle_Marker"/>
+        <NamedIndividual IRI="#figureCircle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpaceEnvironment"/>
+        <NamedIndividual IRI="#geograficMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/viso/graphic/Color"/>
+        <NamedIndividual IRI="#greenColor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="geom:Point"/>
+        <NamedIndividual IRI="#lowerLeftMap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="geom:Point"/>
+        <NamedIndividual IRI="#lowerYUp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="geom:Point"/>
+        <NamedIndividual IRI="#origin3D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Query"/>
+        <NamedIndividual IRI="#queryForTextileLatLong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QueryResultSet"/>
+        <NamedIndividual IRI="#queryForTextileTec"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QueryResultSet"/>
+        <NamedIndividual IRI="#queryForTextileTime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scene"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Circle_Marker"/>
+        <NamedIndividual IRI="#silknowClusterMarker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeEnvironment"/>
+        <NamedIndividual IRI="#silknowDomainTime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clusters_Group_Behaviour"/>
+        <NamedIndividual IRI="#silknowGroupBehaviour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linking_Relation_Behaviour"/>
+        <NamedIndividual IRI="#silknowLinkedRelationBehaviour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Simultaneous_Time_Control_Behaviour"/>
+        <NamedIndividual IRI="#silknowSimultaneousTimeControl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeEnvironment"/>
+        <NamedIndividual IRI="#silknowTime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time_Line_Control_Behaviour"/>
+        <NamedIndividual IRI="#silknowTimeLineControl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Uncertainty_Individual_Behaviour"/>
+        <NamedIndividual IRI="#silknowUncertaintyBehaviour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <NamedIndividual IRI="#startSilknowTime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="geom:Point"/>
+        <NamedIndividual IRI="#topYUp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual_Concept"/>
+        <NamedIndividual IRI="#visualTextile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual_Property"/>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual_Property"/>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual_Property"/>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual_Property"/>
+        <NamedIndividual IRI="#visualTextileTimeEnd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual_Property"/>
+        <NamedIndividual IRI="#visualTextileTimeStart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual_Property"/>
+        <NamedIndividual IRI="#visualTextileType"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defined_by"/>
+        <NamedIndividual IRI="#Unity3D"/>
+        <NamedIndividual IRI="#lowerYUp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defined_by"/>
+        <NamedIndividual IRI="#Unity3D"/>
+        <NamedIndividual IRI="#topYUp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_coordinate_system"/>
+        <NamedIndividual IRI="#Unity3D"/>
+        <NamedIndividual IRI="#cartesianCS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/viso/graphic/color_rgb"/>
+        <NamedIndividual IRI="#circleSilknowMarker"/>
+        <NamedIndividual IRI="#RedColor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+        <NamedIndividual IRI="#circleSilknowMarker"/>
+        <NamedIndividual IRI="http://purl.org/viso/shape/commons/Circle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/viso/graphic/color_rgb"/>
+        <NamedIndividual IRI="#circleTextile"/>
+        <NamedIndividual IRI="#LightBlueColor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Image"/>
+        <NamedIndividual IRI="#circleTextile"/>
+        <NamedIndividual IRI="#TextilePictureVistualTextileTypeClothes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+        <NamedIndividual IRI="#circleTextile"/>
+        <NamedIndividual IRI="http://purl.org/viso/shape/commons/Circle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#corresponding_property"/>
+        <NamedIndividual IRI="#correspondingTextileTypeClothesPicture"/>
+        <NamedIndividual IRI="#visualTextileType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#corresponds_with"/>
+        <NamedIndividual IRI="#correspondingTextileTypeClothesPicture"/>
+        <NamedIndividual IRI="#TextilePictureVistualTextileTypeClothes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#corresponding_property"/>
+        <NamedIndividual IRI="#correspondingTextileTypeReligiousPicture"/>
+        <NamedIndividual IRI="#visualTextileType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#corresponds_with"/>
+        <NamedIndividual IRI="#correspondingTextileTypeReligiousPicture"/>
+        <NamedIndividual IRI="#TextilePictureVisualTextileTypeReligious"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_corresponding_graphic_objet"/>
+        <NamedIndividual IRI="#figureCircle"/>
+        <NamedIndividual IRI="#TextilePictureVisualTextileTypeReligious"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_corresponding_graphic_objet"/>
+        <NamedIndividual IRI="#figureCircle"/>
+        <NamedIndividual IRI="#correspondingTextileTypeClothesPicture"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+        <NamedIndividual IRI="#figureCircle"/>
+        <NamedIndividual IRI="#circleTextile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defined_by"/>
+        <NamedIndividual IRI="#geograficMap"/>
+        <NamedIndividual IRI="#lowerLeftMap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defined_by"/>
+        <NamedIndividual IRI="#geograficMap"/>
+        <NamedIndividual IRI="#topRightMap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_coordinate_system"/>
+        <NamedIndividual IRI="#geograficMap"/>
+        <NamedIndividual IRI="#cartesianCS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_group_behaviour"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <NamedIndividual IRI="#silknowGroupBehaviour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_time_control_behaviour"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <NamedIndividual IRI="#silknowSimultaneousTimeControl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_time_control_behaviour"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <NamedIndividual IRI="#silknowTimeLineControl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_uncertainty_behaviour"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <NamedIndividual IRI="#silknowUncertaintyBehaviour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#represents"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <NamedIndividual IRI="#visualTextile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_environment"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <NamedIndividual IRI="#Unity3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_time_environment"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <NamedIndividual IRI="#silknowTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#time_ends_at"/>
+        <NamedIndividual IRI="#silknowDomainTime"/>
+        <NamedIndividual IRI="#endSilknowTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#time_starts_at"/>
+        <NamedIndividual IRI="#silknowDomainTime"/>
+        <NamedIndividual IRI="#startSilknowTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#time_unit"/>
+        <NamedIndividual IRI="#silknowDomainTime"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#representant_marker"/>
+        <NamedIndividual IRI="#silknowGroupBehaviour"/>
+        <NamedIndividual IRI="#circleSilknowMarker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#time_control_frequency"/>
+        <NamedIndividual IRI="#silknowSimultaneousTimeControl"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitCentury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#time_ends_at"/>
+        <NamedIndividual IRI="#silknowTime"/>
+        <NamedIndividual IRI="#endSilknowTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#time_starts_at"/>
+        <NamedIndividual IRI="#silknowTime"/>
+        <NamedIndividual IRI="#startSilknowTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#time_unit"/>
+        <NamedIndividual IRI="#silknowTime"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitCentury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#time_control_frequency"/>
+        <NamedIndividual IRI="#silknowTimeLineControl"/>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitCentury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_property"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_property"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_property"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_property"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#visualTextileTimeEnd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_property"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#visualTextileTimeStart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_domain_property"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#visualTextileType"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#instance_marker"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#figureCircle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#position_x_domain_property"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#position_y_domain_property"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_environment"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#geograficMap"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_time_environment"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <NamedIndividual IRI="#silknowDomainTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#value_per_query"/>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+        <NamedIndividual IRI="#queryForTextileLatLong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#value_per_query"/>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+        <NamedIndividual IRI="#queryForTextileLatLong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#represented_by_color"/>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+        <NamedIndividual IRI="#greenColor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#value_per_query"/>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+        <NamedIndividual IRI="#queryForTextileTec"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#value_per_query"/>
+        <NamedIndividual IRI="#visualTextileTimeEnd"/>
+        <NamedIndividual IRI="#queryForTextileTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#value_per_query"/>
+        <NamedIndividual IRI="#visualTextileTimeStart"/>
+        <NamedIndividual IRI="#queryForTextileTime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+        <AnonymousIndividual nodeID="_:genid1"/>
+        <NamedIndividual IRI="http://purl.org/viso/shape/commons/Circle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+        <AnonymousIndividual nodeID="_:genid2"/>
+        <NamedIndividual IRI="http://purl.org/viso/shape/commons/Circle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+        <AnonymousIndividual nodeID="_:genid3"/>
+        <NamedIndividual IRI="http://purl.org/viso/shape/commons/Circle"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_color"/>
+        <NamedIndividual IRI="#LightBlueColor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">#0096FF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_color"/>
+        <NamedIndividual IRI="#RedColor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">#FF0000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_URL"/>
+        <NamedIndividual IRI="#TextilePictureVistualTextileTypeClothes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">https://www.nicepng.com/png/detail/506-5068234_textiles-iconos-de-ropa-png.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_URL"/>
+        <NamedIndividual IRI="#TextilePictureVisualTextileTypeReligious"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">https://cdn.icon-icons.com/icons2/2622/PNG/512/religion_icon_157480.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_uri"/>
+        <NamedIndividual IRI="#correspondingTextileTypeClothesPicture"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://data.silknow.org/describe/?url=http%3A%2F%2Fdata.silknow.org%2Fobject%2F511080b2-9f00-3695-8ef4-4991035d26ed%2Fcategory%2F1&amp;sid=210</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_uri"/>
+        <NamedIndividual IRI="#correspondingTextileTypeReligiousPicture"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://data.silknow.org/describe/?url=http%3A%2F%2Fdata.silknow.org%2Fobject%2F72179bb7-ab49-35f0-b0c4-e8218c32347c%2Fdomain%2F1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#en_fecha_xsd"/>
+        <NamedIndividual IRI="#endSilknowTime"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1899-12-31T23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_color"/>
+        <NamedIndividual IRI="#greenColor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">#008000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordX"/>
+        <NamedIndividual IRI="#lowerLeftMap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">-180.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordY"/>
+        <NamedIndividual IRI="#lowerLeftMap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">-90.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordZ"/>
+        <NamedIndividual IRI="#lowerLeftMap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordX"/>
+        <NamedIndividual IRI="#lowerYUp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">-1000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordY"/>
+        <NamedIndividual IRI="#lowerYUp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">-1000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordZ"/>
+        <NamedIndividual IRI="#lowerYUp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">-1000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordX"/>
+        <NamedIndividual IRI="#origin3D"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordY"/>
+        <NamedIndividual IRI="#origin3D"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordZ"/>
+        <NamedIndividual IRI="#origin3D"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_expression"/>
+        <NamedIndividual IRI="#queryForTextileLatLong"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SELECT distinct ?latitud ?longitud
+WHERE { 
+    ?s 
+    rdf:type 
+    &lt;http://erlangen-crm.org/current/E12_Production&gt; .
+    ?s 
+    &lt;http://erlangen-crm.org/current/P108_has_produced&gt; 
+    this .
+    ?s
+    &lt;http://erlangen-crm.org/current/P8_took_place_on_or_within&gt;
+    ?p .
+    ?p
+    rdf:type
+    &lt;http://www.geonames.org/ontology#Feature&gt; .
+    ?p
+    &lt;http://www.w3.org/2003/01/geo/wgs84_pos#lat&gt; 
+    ?latitud .
+    ?p
+    &lt;http://www.w3.org/2003/01/geo/wgs84_pos#long&gt; 
+    ?longitud .
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_variable_for_instance"/>
+        <NamedIndividual IRI="#queryForTextileLatLong"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">this</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_expression"/>
+        <NamedIndividual IRI="#queryForTextileTec"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SELECT distinct ?tecniqueLabel ?materialLabel
+WHERE { 
+    ?s 
+    rdf:type 
+    &lt;http://erlangen-crm.org/current/E12_Production&gt; .
+    ?s 
+    &lt;http://erlangen-crm.org/current/P108_has_produced&gt; 
+    this .
+    ?s
+    &lt;http://erlangen-crm.org/current/P32_used_general_technique&gt;
+    ?p .
+    ?p
+    &lt;http://www.w3.org/2004/02/skos/core#prefLabel&gt; 
+    ?techniqueLabel
+    ?s
+    &lt;http://erlangen-crm.org/current/P126_employed&gt;
+    ?q .
+    ?q
+    &lt;http://www.w3.org/2004/02/skos/core#prefLabel&gt; 
+    ?materialLabel
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_variable_for_instance"/>
+        <NamedIndividual IRI="#queryForTextileTec"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">this</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_expression"/>
+        <NamedIndividual IRI="#queryForTextileTime"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SELECT distinct ?this, ?start, ?end
+WHERE { 
+    ?s 
+    rdf:type 
+    &lt;http://erlangen-crm.org/current/E12_Production&gt; .
+    ?s 
+    &lt;http://erlangen-crm.org/current/P108_has_produced&gt; 
+    ?this .
+    ?s
+    &lt;http://erlangen-crm.org/current/P4_has_time-span&gt;
+    ?p .
+    ?p
+    &lt;http://www.w3.org/2006/time#hasBeginning&gt; 
+    ?st .
+    ?p
+    &lt;http://www.w3.org/2006/time#hasEnd&gt; 
+    ?ed .
+    ?st
+    &lt;http://www.w3.org/2006/time#inXSDDate&gt;
+    ?start .
+    ?ed
+    &lt;http://www.w3.org/2006/time#inXSDDate&gt;
+    ?end .
+
+    FILTER (?uriInstance in (this.value))
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_variable_for_all_instances"/>
+        <NamedIndividual IRI="#queryForTextileTime"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">this.value</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_variable_for_instance"/>
+        <NamedIndividual IRI="#queryForTextileTime"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">this</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#level_of_detail"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#max_zoom_level"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#min_zoom_level"/>
+        <NamedIndividual IRI="#sceneSilknow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linked_relation_rounded_by_color"/>
+        <NamedIndividual IRI="#silknowLinkedRelationBehaviour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#linked_relation_with_lines"/>
+        <NamedIndividual IRI="#silknowLinkedRelationBehaviour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#time_control_has_steps"/>
+        <NamedIndividual IRI="#silknowSimultaneousTimeControl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#time_control_max_steps"/>
+        <NamedIndividual IRI="#silknowSimultaneousTimeControl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uncertainty_with_discolouration"/>
+        <NamedIndividual IRI="#silknowUncertaintyBehaviour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#en_fecha_xsd"/>
+        <NamedIndividual IRI="#startSilknowTime"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">0001-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordX"/>
+        <NamedIndividual IRI="#topRightMap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">180.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordY"/>
+        <NamedIndividual IRI="#topRightMap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">90.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordZ"/>
+        <NamedIndividual IRI="#topRightMap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordX"/>
+        <NamedIndividual IRI="#topYUp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordY"/>
+        <NamedIndividual IRI="#topYUp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordZ"/>
+        <NamedIndividual IRI="#topYUp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#represents_domain_concept"/>
+        <NamedIndividual IRI="#visualTextile"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://erlangen-crm.org/current/E22_Human-Made_Object</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_name"/>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">x</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_filtered"/>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_relatable"/>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uses_query_variable_name"/>
+        <NamedIndividual IRI="#visualTextilePosX"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">longitud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_name"/>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">y</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_filtered"/>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_relatable"/>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uses_query_variable_name"/>
+        <NamedIndividual IRI="#visualTextilePosy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">latitud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_name"/>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">technique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_filtered"/>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_relatable"/>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uses_query_variable_name"/>
+        <NamedIndividual IRI="#visualTextileTechnique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">techniqueLabel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_name"/>
+        <NamedIndividual IRI="#visualTextileTimeEnd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">to</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_filtered"/>
+        <NamedIndividual IRI="#visualTextileTimeEnd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_relatable"/>
+        <NamedIndividual IRI="#visualTextileTimeEnd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uses_query_variable_name"/>
+        <NamedIndividual IRI="#visualTextileTimeEnd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">end</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_name"/>
+        <NamedIndividual IRI="#visualTextileTimeStart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">from</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_filtered"/>
+        <NamedIndividual IRI="#visualTextileTimeStart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_relatable"/>
+        <NamedIndividual IRI="#visualTextileTimeStart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uses_query_variable_name"/>
+        <NamedIndividual IRI="#visualTextileTimeStart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">start</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_name"/>
+        <NamedIndividual IRI="#visualTextileType"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">type</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_filtered"/>
+        <NamedIndividual IRI="#visualTextileType"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is_relatable"/>
+        <NamedIndividual IRI="#visualTextileType"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#defined_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_domain"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_parameter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_query_service"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#instance_marker"/>
+        <ObjectProperty IRI="#marker"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#position_domain_property"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#position_x_domain_property"/>
+        <ObjectProperty IRI="#position_domain_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#position_y_domain_property"/>
+        <ObjectProperty IRI="#position_domain_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#position_z_domain_property"/>
+        <ObjectProperty IRI="#position_domain_property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#representant_marker"/>
+        <ObjectProperty IRI="#marker"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#represented_by_color"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#time_ends_at"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#uncertainty_marker"/>
+        <ObjectProperty IRI="#marker"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#uncertainty_replication_marker"/>
+        <ObjectProperty IRI="#marker"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#represented_into"/>
+        <ObjectProperty IRI="#represents"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_coordinate_system"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#represented_into"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#uses_environment"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#represents"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#corresponding_property"/>
+        <Class IRI="#Modifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#corresponds_with"/>
+        <Class IRI="#Modifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defined_by"/>
+        <Class IRI="#SpaceEnvironment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#group_behaviour"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Image"/>
+        <Class IRI="#Marker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_coordinate_system"/>
+        <Class IRI="#SpaceEnvironment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_corresponding_graphic_objet"/>
+        <Class IRI="#Marker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_domain"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_domain_property"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+        <Class IRI="#Marker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_group_behaviour"/>
+        <Class IRI="#Scene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_parameter"/>
+        <Class IRI="#WebService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_query_service"/>
+        <Class IRI="#Domain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_time_control_behaviour"/>
+        <Class IRI="#Scene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_uncertainty_behaviour"/>
+        <Class IRI="#Scene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#instance_marker"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#position_x_domain_property"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#representant_marker"/>
+        <Class IRI="#Clusters_Group_Behaviour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#representant_marker"/>
+        <Class IRI="#Uncertainty_Behaviour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#representant_marker"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#represented_by_color"/>
+        <Class IRI="#Visual_Property"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#represented_into"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#represents"/>
+        <Class IRI="#Scene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#time_control_frequency"/>
+        <Class IRI="#Time_Control_Behaviour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#time_ends_at"/>
+        <Class IRI="#TimeEnvironment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#time_starts_at"/>
+        <Class IRI="#TimeEnvironment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#time_unit"/>
+        <Class IRI="#TimeEnvironment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uncertainty_marker"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uncertainty_replication_marker"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_environment"/>
+        <Class IRI="#Scene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_environment"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_time_environment"/>
+        <Class IRI="#Scene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_time_environment"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#value_per_query"/>
+        <Class IRI="#Visual_Property"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#corresponding_property"/>
+        <Class IRI="#Visual_Property"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#corresponds_with"/>
+        <Class IRI="http://purl.org/viso/graphic/Color"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#corresponds_with"/>
+        <Class IRI="http://purl.org/viso/graphic/Picture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#corresponds_with"/>
+        <Class IRI="http://purl.org/viso/graphic/3D_Model"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defined_by"/>
+        <Class abbreviatedIRI="geom:Point"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#group_behaviour"/>
+        <Class IRI="#Group_Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Image"/>
+        <Class IRI="http://purl.org/viso/graphic/Picture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_coordinate_system"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_coordinate_system"/>
+            <Class IRI="http://data.ign.fr/def/ignf#CoordinateSystem"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_corresponding_graphic_objet"/>
+        <Class IRI="#Modifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_domain"/>
+        <Class IRI="#Domain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_domain_property"/>
+        <Class IRI="#Visual_Property"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_graphic_representation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_graphic_representation"/>
+            <Class IRI="http://purl.org/viso/graphic/Primary_Graphic_Representation"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_group_behaviour"/>
+        <Class IRI="#Group_Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_parameter"/>
+        <Class IRI="#Parameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_query_service"/>
+        <Class IRI="#WebService"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_time_control_behaviour"/>
+        <Class IRI="#Time_Control_Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_uncertainty_behaviour"/>
+        <Class IRI="#Uncertainty_Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#instance_marker"/>
+        <Class IRI="#Marker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#position_x_domain_property"/>
+        <Class IRI="#Visual_Property"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#representant_marker"/>
+        <Class IRI="#Marker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#represented_by_color"/>
+        <Class IRI="http://purl.org/viso/graphic/Color"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#represented_into"/>
+        <Class IRI="#Scene"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#represents"/>
+        <Class IRI="#Visual_Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#time_control_frequency"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#time_ends_at"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#time_starts_at"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#time_unit"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uncertainty_marker"/>
+        <Class IRI="#Marker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uncertainty_replication_marker"/>
+        <Class IRI="#Marker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_environment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#uses_environment"/>
+            <Class IRI="#SpaceEnvironment"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_time_environment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#uses_time_environment"/>
+            <Class IRI="#TimeEnvironment"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#value_per_query"/>
+        <Class IRI="#Query"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#coordX"/>
+        <DataProperty IRI="#position"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#coordY"/>
+        <DataProperty IRI="#position"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#coordZ"/>
+        <DataProperty IRI="#position"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_Service_url"/>
+        <DataProperty IRI="#has_URL"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_URL_from_property"/>
+        <DataProperty IRI="#has_URL"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_URL_value"/>
+        <DataProperty IRI="#has_URL"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#is_filtered"/>
+        <DataProperty IRI="#property_path"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#is_relatable"/>
+        <DataProperty IRI="#property_path"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#max_zoom_level"/>
+        <DataProperty IRI="#zoom_level"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#min_zoom_level"/>
+        <DataProperty IRI="#zoom_level"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#property_URI"/>
+        <DataProperty IRI="#property_path"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#uncertainty_replicated_with_shift"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_number"/>
+        <DataProperty IRI="#value_of_corresponding_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_string"/>
+        <DataProperty IRI="#value_of_corresponding_property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_uri"/>
+        <DataProperty IRI="#value_of_corresponding_property"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#coordX"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_variable_for_instance"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#en_fecha_xsd"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Service_url"/>
+        <Class IRI="#WebService"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_URL_from_property"/>
+        <Class IRI="http://purl.org/viso/graphic/Picture"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_URL_from_property"/>
+        <Class IRI="http://purl.org/viso/graphic/3D_Model"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_URL_value"/>
+        <Class IRI="http://purl.org/viso/graphic/Picture"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_URL_value"/>
+        <Class IRI="http://purl.org/viso/graphic/3D_Model"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_color"/>
+        <Class IRI="http://purl.org/viso/graphic/Primary_Graphic_Representation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_expression"/>
+        <Class IRI="#Parameter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_expression"/>
+        <Class IRI="#Query"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_name"/>
+        <Class IRI="#Parameter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_name"/>
+        <Class IRI="#Visual_Property"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_variable_for_all_instances"/>
+        <Class IRI="#QueryResultSet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_variable_for_instance"/>
+        <Class IRI="#Query"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_filtered"/>
+        <Class IRI="#Visual_Property"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_relatable"/>
+        <Class IRI="#Visual_Property"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#level_of_detail"/>
+        <Class IRI="#Scene"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#linked_relation_rounded_by_color"/>
+        <Class IRI="#Linking_Relation_Behaviour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#linked_relation_with_lines"/>
+        <Class IRI="#Linking_Relation_Behaviour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#max_zoom_level"/>
+        <Class IRI="#Scene"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#min_zoom_level"/>
+        <Class IRI="#Scene"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#property_URI"/>
+        <Class IRI="#Visual_Property"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#represents_domain_concept"/>
+        <Class IRI="#Visual_Concept"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#time_control_has_steps"/>
+        <Class IRI="#Time_Control_Behaviour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#time_control_max_steps"/>
+        <Class IRI="#Simultaneous_Time_Control_Behaviour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#uncertainty_replicated_with_shift"/>
+        <Class IRI="#Uncertainty_Replication_Behaviour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#uncertainty_with_discolouration"/>
+        <Class IRI="#Uncertainty_Behaviour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#uses_query_variable_name"/>
+        <Class IRI="#Visual_Property"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_number"/>
+        <Class IRI="#Modifier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_string"/>
+        <Class IRI="#Modifier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_uri"/>
+        <Class IRI="#Modifier"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#en_fecha_xsd"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Service_url"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_URL_from_property"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_URL_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_color"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_expression"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_variable_for_all_instances"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_variable_for_instance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_filtered"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_relatable"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#linked_relation_rounded_by_color"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#linked_relation_with_lines"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#max_zoom_level"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#min_zoom_level"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#property_URI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#represents_domain_concept"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#time_control_has_steps"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#time_control_max_steps"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#uncertainty_replicated_with_shift"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#uncertainty_with_discolouration"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#uses_query_variable_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_number"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_string"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#value_of_corresponding_property_is_a_uri"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Circle_Marker</IRI>
+        <AnonymousIndividual nodeID="_:genid1"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Modifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the association between the value (value_of_property) of a DomainProperty instance with a GraphicObject instance ( 3D_Model, Picture, Color)
+
+With this association its allowed the assignation of differnt Pictures, 3D_Models, Color to the same Marker, in function of the value of this property
+
+For instance.
+
+If a type of object is Religious could be associated a Picture with religious symbol
+If a type of object is Household could ne associated a Picture with a house symbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Visual_Concept</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Representa un concepto de la ontología de dominio y describe como va a ser visualizado en la escena de visualización.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Visual_Concept</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a concept of the domain ontology and describe how it is going to be visualized in the visualization Scene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#coordX</IRI>
+        <AbbreviatedIRI>geom:coordX</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#coordY</IRI>
+        <AbbreviatedIRI>geom:coordY</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#coordZ</IRI>
+        <AbbreviatedIRI>geom:coordZ</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#en_fecha_xsd</IRI>
+        <IRI>http://www.w3.org/2006/time#inXSDDate</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#has_Image</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has_graphic_representation contains Picture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#has_URL</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">URL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#has_color</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/viso/graphic/color_rgb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lowerLeftMap</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The left lower corner in a map representation
+x=longitude  (-180)
+y=latitude (-90)
+z=0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#topRightMap</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The right up corner in a map representation
+x=longitude  (180)
+y=latitude (90)
+z=0</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
